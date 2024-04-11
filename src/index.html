@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>Analog clock</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./style/style.css" type="text/css">
+        <script src="./js/script.js"></script>
+        <style>
+        body {
+            background-color: #E6E6FA;}
+        </style>
+</head>
+<body>
+    <div>
+    <b><div id='clock'></div><b>
+	<canvas height='450' width='450'  id='myCanvas'></canvas>
+	<b><div id="message"></div><b>
+    <img class="img" src="./sss.jpg">
+	<img id="gif" src="./g.gif" style="display: none;">
+	<script>
+        setInterval(function() {
+        document.getElementById('gif').style.display = 'block';
+		document.getElementById('message').innerText = 'Мяу!';
+
+    
+        setTimeout(function() {
+            document.getElementById('gif').style.display = 'none';
+			document.getElementById('message').innerText = '';
+        }, 4850); // Показываем гифку на 5 секунд
+    }, 10000); // Каждые 20 секунд
+    </script>
+
+
+    </div>
+</body>
+</html>

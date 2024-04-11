@@ -1,0 +1,47 @@
+#myCanvas {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#clock {
+  font-family:segoe script, sans-serif;
+  font-size:30px;
+  color:red;
+  margin: 0 auto;
+  bottom:7%;
+  left:74%;
+  position: fixed;  
+}
+.img{
+	position: absolute;
+    top:50%;
+    left:50%;
+	width:700px;
+    height:700px;
+    transform:translate(-50%, -50%);
+    max-width:100%;
+    max-height:100%;
+}
+#gif{
+	position: absolute;
+    bottom:-7%;
+    left:12%;
+	width:200px;
+    height:100px;
+    transform:translate(-50%, -50%);
+    max-width:100%;
+    max-height:100%;
+}
+#message {
+	position: absolute;
+    bottom:7.4%;
+    left:6.2%;
+	font-family:segoe script, sans-serif;
+    font-size:28px;
+    color:red;
+    transform:translate(-50%, -50%);
+
+}
